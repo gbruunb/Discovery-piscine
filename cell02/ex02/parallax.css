@@ -1,0 +1,37 @@
+body,html{
+    height: 100%;
+    margin: 0;
+    font-size: 30px;
+    color: rgb(255, 0, 0);
+}
+
+.pimg1{
+    background-image:url('https://scontent.fbkk6-2.fna.fbcdn.net/v/t39.30808-6/297167848_10158800450556497_7460426564169556473_n.jpg?stp=dst-jpg_p180x540&_nc_cat=107&ccb=1-7&_nc_sid=e3f864&_nc_eui2=AeFOIVZNxDx8o8sXq_I_4gg2fS0rjIcpRp19LSuMhylGnYAB9B0Ys6PmJ0xFXBNLw6u0ZTLGQ81O2m-iLKVm2zi0&_nc_ohc=a737WAqteJwAX-3C0Jf&_nc_ht=scontent.fbkk6-2.fna&oh=00_AT_I2dFLwQoXodgiNYtRviN2jxGwbEycuLluti4G5rxltg&oe=6318AAEB');
+    min-height: 100%;
+}
+
+.pimg2{
+    background-color:#000;
+    min-height: 100%;
+}
+
+.pimg3{
+    background-image:url('https://www.pcc.kmitl.ac.th/wp-content/uploads/2022/03/background_FIGHTgo-03-1366x768-1.png');
+    min-height: 100%;
+}
+
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-attachment: fixed;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
